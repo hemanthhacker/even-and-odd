@@ -1,0 +1,19 @@
+n=int(input("Enter no of values: "))
+l=[]
+d={}
+for i in range(n):
+    l.append(int(input()))
+for j in l:
+    if j%2==0:
+        d[j]='No'
+    else:
+        d[j]='Yes'
+print(d)
+ 
+ output:
+ Enter no of values: 4
+2
+3
+4
+5
+{2: 'No', 3: 'Yes', 4: 'No', 5: 'Yes'}
